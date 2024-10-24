@@ -59,9 +59,11 @@
       </div>
   </section>
   <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Subscribe to my newsletter!
-  </button>
+   <div class="text-center">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Subscribe to my newsletter!
+    </button>
+   </div>
 </header>
 
 <!-- main content -->
@@ -190,10 +192,23 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Sign up</button>
+          Join my newsletter for the latest updates on my projects, coding tips, and industry insights delivered
+          straight to your inbox.
+          <form class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-6 mb-3 mt-3">
+                <label for="nameInput" class="form-label">Name</label>
+                <input type="text" class="form-control" id="nameInput">
+              </div>
+              <div class="col-12 col-md-6 col-lg-6 mb-3 mt-3">
+                <label for="emailInput" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="emailInput">
+              </div>
+              <div class="col-12">
+                <button type="button" class="btn btn-primary">Sign up</button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>
